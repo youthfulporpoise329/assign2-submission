@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin-top: 3rem; 
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-family: "Avenir Book";
+}
+
+h1 {
+    font-size: 36pt;
+    text-align: center;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+.assignment2-gallery {
+    width: 100%;
+}
+.original-interface-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.original-interface {
+    width: 50rem; 
+    height: auto; 
+    float: left;
+}
+.original-interface-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; 
+}
+.og-text {
+    width: 80%;
+    text-align: center;
+}
+.lofi-prototypes-container {
+    display: flex;
+    justify-content: space-around;
+}
+.lofi-prototype-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lofi-prototype-img {
+    width: 20rem;
+}
+.style-guide-container {
+    display: flex;
+    justify-content: start;
+}
+.style-guide-img {
+    width: 80rem;
+    height: auto; 
+}
+
+.hifi-prototypes-container {
+    width: 100%; 
+}
+.hifi-prototype-image-container {
+    margin:2rem; 
+    display: flex;
+    justify-content: center;
+}
+.hifi-prototype-img{
+    display: flex;
+    justify-content: center;
+}
